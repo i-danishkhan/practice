@@ -30,7 +30,7 @@ const personRoutes = require('./routes/personRoutes')
 const menuItemRoutes = require('./routes/menuItemRoutes')
 
 // use routes
-app.use('/person', localAuth, personRoutes)
+app.use('/person', personRoutes)
 app.use('/menu', menuItemRoutes)
 
 
